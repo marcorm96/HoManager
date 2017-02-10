@@ -28,8 +28,8 @@ function nuovaLettureScene:create( event )
 	local function returnButtonNLEvent( event )			
 		if ( "ended" == event.phase ) then 
 			nuovaLettureScene:destroy()					
-			menuScene=require('scenes.menuScene')
-			menuScene:create()
+			lettureScene=require('scenes.lettureScene')
+			lettureScene:create()
 			
 		end
 	end
