@@ -20,7 +20,7 @@ dbManager={}
 	
 	local utility=require('librerie.utility')
 	
-	URLBase="http://sviluppoofficinahardsoft.altervista.org/gestoreOperazioni.php?op="
+	URLBase=''--please insert your url
 	
 	function networkListener( event ) 		
 		if ( event.isError ) then
